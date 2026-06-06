@@ -1,0 +1,59 @@
+# ============================================================
+# ENVIRONMENT & CREDENTIALS — NEVER COMMIT THESE
+# ============================================================
+.env
+.env.*
+*.env
+.env.local
+.env.production
+secrets.json
+credentials.json
+config.local.json
+
+# API key files (catch-all patterns)
+*api_key*
+*apikey*
+*secret*
+*token*
+
+# Groq API credentials
+groq_key*.txt
+groq_credentials*
+
+# Google / Gmail OAuth credentials
+google_credentials.json
+service_account*.json
+gmail_token*.json
+token.json
+
+# n8n local instance data (contains encrypted credentials)
+.n8n/
+n8n-data/
+*.n8n
+
+# ============================================================
+# OS & EDITOR NOISE
+# ============================================================
+.DS_Store
+.DS_Store?
+Thumbs.db
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# ============================================================
+# LOGS & RUNTIME ARTIFACTS
+# ============================================================
+*.log
+logs/
+npm-debug.log*
+
+# ============================================================
+# DEPENDENCY FOLDERS
+# ============================================================
+node_modules/
+__pycache__/
+*.pyc
+*.pyo
