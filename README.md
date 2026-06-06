@@ -1,4 +1,5 @@
 # 🚀 Autonomous AI Content Repurposing Engine
+<img width="1192" height="363" alt="image" src="https://github.com/user-attachments/assets/4bf80e5a-80ca-4970-9a67-e03bd3cfabc6" />
 
 A production-grade, asynchronous automation pipeline that ingests long-form articles, processes them through specialized LLM constraints, and outputs platform-optimized marketing assets directly to an execution queue.
 
